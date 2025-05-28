@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# <h1 align="center">Wallet</h1>
+<p align='center'>Wallet é uma aplicação Mobile com o objetivo de controlar suas finanças, permitindo que você cadastre entradas, saídas e categorize-as de uma forma organizada!</p>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 💻 Projeto
 
-## Get started
+ É uma aplicação Mobile com o objetivo de controlar suas finanças, para treinar um pouco mais sobre React-Native.
+> Status do Projeto: :heavy_check_mark: (_concluído_)
 
-1. Install dependencies
+## 🚀 Funcionalidades
 
-   ```bash
-   npm install
-   ```
+- Autenticação segura com Clerk.
+- Criação, listagem e exclusão de transações.
+- Visualização de resumo financeiro (saldo).
+- Navegação protegida para usuários autenticados.
+- Interface intuitiva com React Native e Expo.
 
-2. Start the app
+## ▶️ Como rodar a aplicação 
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+Antes de começar :checkered_flag:, você precisa ter [Git](https://git-scm.com), [Node](https://nodejs.org/en/), [Android Studio](https://developer.android.com/studio?hl=pt&gclid=Cj0KCQjwvLOTBhCJARIsACVldV3Ymb3yPN-YIX5Nzeccknkeb1_i2FL0SgJuNqle5xE3_3iFlCDwxTUaAo9uEALw_wcB&gclsrc=aw.ds) e  [Expo](https://docs.expo.dev/workflow/expo-cli/) instalados.
 
 ```bash
-npm run reset-project
+# Clonar este projeto
+$ git clone https://github.com/pvsmda/wallet-mobile
+# Acessar a pasta
+$ cd wallet-mobile
+# Instalar as dependências 
+$ yarn
+# Rodar o projeto
+$ expo start
+# A aplicação irá inicializar no dispositivo físico.
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 👨🏻‍💻 Deploy da Aplicação
 
-## Learn more
+<img src="https://github.com/pvsmda/wallet-mobile/blob/main/assets/images/White-and-Black-Minimalist-Phone-Mockup-Instagram-Story.gif?raw=true" alt="screenshot" width=300px height=600px/>
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📝 Licença
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 
-## Join the community
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Made with
+💜 by <a href="https://github.com/pvsmda" target="_blank">Paulo Victor</a>
